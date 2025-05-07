@@ -1,0 +1,9 @@
+numpy
+pandas
+torch
+tf-keras
+flask
+transformers
+flask-cors
+python-dotenv
+-e .

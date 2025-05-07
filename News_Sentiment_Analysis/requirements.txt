@@ -1,0 +1,17 @@
+ipykernel
+pandas
+numpy
+matplotlib
+seaborn
+beautifulsoup4
+selenium
+requests
+setuptools
+scikit-learn
+tensorflow
+tensorboard
+imblearn
+nltk
+flask
+flask-cors
+-e .
