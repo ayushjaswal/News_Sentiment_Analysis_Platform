@@ -1,8 +1,8 @@
 ## How to run this repo
 
-- You would be required to create two different python environment, one for summarization pipeline and one for the main app
+- You would be required to create two different python environment, one for summarization pipeline and one for the main app. Make sure to install the requirement.txt from `News_Sentiment_Analysis` folder. This will help us in creating a package of the project that we can easily import. If you do not do that the import statements won't work!
 - This is done to avoid the dependency issue at the moment untill the keras 3 support is available for transformers which is being utilized in the summarization pipeline
-- Download the models from [here](https://drive.google.com/drive/folders/1b7I5FNh5_Wa1AwV_4d4aJEcYtDxQweKt?usp=sharing) Extract the models in the models folder inside `News_Sentiment_Analysis` folder
+- Download the models from [here](https://drive.google.com/drive/folders/1b7I5FNh5_Wa1AwV_4d4aJEcYtDxQweKt?usp=sharing) Extract the models in the models folder inside `News_Sentiment_Analysis` folder. Make sure model foldes such as `framing_bias` are inside `models` folder and that is inside `News_Sentiment_Analysis` folder. This is crucial step.
 - Activate and run the corrosponding applications in their enviroments using `python app.py` command
 - Install frontend dependencies using `pnpm install` or any other dependency manager of your choice
 - Start frontend using `pnpm run dev` or `<yourmanager> run dev`
